@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this template or a project derived from it, cite the repository release."
+title: "Solo-maintainer data pipeline template"
+type: software
+authors:
+  - family-names: "Mordaunt"
+    given-names: "Dylan"
+repository-code: "https://github.com/edithatogo/template-solo-data"
+license: MIT

@@ -1,6 +1,6 @@
 # Solo-maintainer data pipeline template
 
-[![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Citation](https://img.shields.io/badge/citation-CFF-blue.svg)](CITATION.cff)
+[![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Citation](https://img.shields.io/badge/citation-CFF-blue.svg)](CITATION.cff) [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/edithatogo/template-solo-data/badge)](https://securityscorecards.dev/viewer/?uri=github.com/edithatogo/template-solo-data)
 
 A Python 3.14 data-pipeline baseline with provenance controls, reusable CI, real coverage, structured logging, Renovate, and tag-derived versions.
 

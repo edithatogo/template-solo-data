@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "environment_configuration": false,
+  "devcontainer": "optional",
+  "template_repository": true,
+  "rationale": {
+    "environment_configuration": "Starter requires no application environment variables; document any added configuration before use.",
+    "devcontainer": "Local toolchain workflow is documented; custom container is optional and requires its own qualification."
+  }
+}

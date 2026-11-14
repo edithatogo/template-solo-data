@@ -1,0 +1,25 @@
+# Local machine files and untracked environment secrets
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Generated outputs for this starter
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+/build/
+/dist/
+*.egg-info/
+/src/replace_me_data/_version.py

@@ -10,16 +10,30 @@ This repository is designed for one maintainer. Automated checks are required;
 no second reviewer, CODEOWNERS approval, team membership, or mandatory human
 approval is introduced.
 
-## Start here
+## Usage
 
-1. Replace `replace-me-data` and `src/replace_me_data`.
-2. Document every input under `data/README.md`.
-3. Run `python -m pip install -e ".[test]"`.
-4. Run `python -m pytest --cov`.
+Choose **Use this template** to create a Python data project, then follow the
+[adoption checklist](BOOTSTRAP.md). The starter supplies a package skeleton,
+a structured-logging helper and tests. Add the actual collection or
+transformation logic with synthetic or rights-cleared fixtures.
+
+1. Replace `replace-me-data` in `pyproject.toml` and rename
+   `src/replace_me_data/`; update imports and the generated-version path.
+2. Document each input's origin, rights and checksum in `data/README.md`.
+3. Follow [CONTRIBUTING.md](CONTRIBUTING.md) to create an environment matching
+   the current CI, then install with `python -m pip install -e ".[test]"`.
+4. Run `python -m pytest --cov --cov-report=xml` and review the generated
+   coverage alongside the separate data-governance evidence.
 
 ## Development
 
-CI tests executable transformations and uploads real coverage. Data validity, rights, provenance, checksums, and publication gates remain separate evidence.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and validation commands, and
+[BOOTSTRAP.md](BOOTSTRAP.md) for the adoption checklist.
+
+The pinned shared CI runs executable tests and creates coverage output; its
+Codecov upload requires separate provider activation and observed execution.
+Data validity, rights, provenance, checksums and publication remain separate
+evidence.
 
 ## Versioning
 
@@ -31,9 +45,9 @@ Use `replace_me_data.logging.configure_logging` at the pipeline entry point. JSO
 
 ## Security
 
-Report vulnerabilities privately through GitHub Security Advisories. See
-[SECURITY.md](SECURITY.md); do not disclose credentials or sensitive source data
-in a public issue.
+Follow [SECURITY.md](SECURITY.md) for private reporting and the safe contact
+fallback if GitHub's **Report a vulnerability** option is unavailable. Do not
+include credentials, sensitive source data or exploit details in public issues.
 
 ## Citation
 

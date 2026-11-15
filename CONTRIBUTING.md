@@ -2,7 +2,7 @@
 
 ## Development
 
-Use Python 3.15.1 to reproduce the current pinned CI. The package manifest allows Python 3.14 or newer. Create an isolated environment from the repository root:
+Use Python 3.15.2 to reproduce the current pinned CI. The package manifest allows Python 3.14 or newer. Create an isolated environment from the repository root:
 
 ```sh
 python3.15 -m venv .venv

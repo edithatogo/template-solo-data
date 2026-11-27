@@ -5,4 +5,4 @@ permissions:
   id-token: write
 jobs:
   ci:
-    uses: edithatogo/repository-standards/.github/workflows/data-ci.yml@ed8070a3d95364b00d197471378febc46ff1ec87 # main
+    uses: edithatogo/repository-standards/.github/workflows/data-ci.yml@8f17a91d8aa66a600ed93a605f341f3d310da66d # main
